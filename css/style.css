@@ -115,11 +115,21 @@ header nav ul li a{
     font: 20px/29px 'heebomedium';
 }
 h1{
-    padding-bottom: 40px
+    padding-bottom: 40px;
+    font: 44px/60px 'heebobold';
+    color: #21243D;
+}
+.h2_blog{
+    font: 44px/60px 'heebobold';
+    color: #21243D;
+    padding: 105px 760px 56px 236px;
+
 }
 .entry_author{
     padding-bottom:38px;
     max-width: 498px;
+    font: 16px/23.5px 'heeboregular';
+    color: #21243D;
 }
 .resume_link{
     background: #FF6464;
@@ -245,17 +255,17 @@ input:focus{
     background-color: #FF6464;
 }
 .featured_works{
-    padding: 0 235px 5px;
+    padding: 0 146px 5px;
     background-color: #FFFFFF;
+    margin-bottom: 30px;
 }
 .feat_works_img{
     height: 180px;
     width: 246px;
-    margin-right: 18px;
+    margin-right: 17px;
 }
 .border{
     border-bottom: 1px #E0E0E0 solid ;
-    padding-bottom: 22px;
 }
 .featured_works_style{
     font:22px/60px 'heeboregular';
@@ -270,7 +280,6 @@ input:focus{
     height: 24px;
     width: 62px;
     padding: 0 10px;
-    margin: 15px 25px 22px 12px;
 }
 .feat_works_span_letters{
     font: 20px/29px 'heeboregular';
@@ -282,8 +291,8 @@ input:focus{
 }
 .feat_works_p_marg_top{
     font: 16px/23px 'heeboregular';
-    margin: 2px 0 30px 0 ;
-    padding-bottom: 2px;
+    margin: 5px 0 30px 0 ;
+    padding-top: 18px;
 }
 .feat_works_sect_pos{
     padding-top: 10px;
@@ -312,10 +321,36 @@ input:focus{
 .blog_col{
     color: #FF6464;
 }
-
-
-
-
+.blog_containers{
+    width: 682px;
+    margin: 32px 235px;
+}
+.blog_h3{
+    font: 30px/44px 'heebomedium';
+    margin-bottom: 16px;
+}
+.blog_containers_date_span{
+    font: 20px/29px 'heeboregular';
+    color: #21243D;
+}
+.blog_containers_date_span::after{
+    content:"";
+    display: inline-block;
+    height: 17px;
+    border: 1px solid black;
+    margin: 0 20px;
+    width: 0;
+}
+.blog_containers_p{
+    margin-top: 15px;
+    margin-bottom: 29px;
+    font: 16px/23.5px 'heeboregular';
+    color: #21243D;
+}
+.blog_containers_text_span{
+    font: 20px/29px 'heeboregular';
+    color: #8695A4;
+}
 
 
 
