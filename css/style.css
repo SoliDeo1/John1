@@ -121,8 +121,8 @@ h1{
 }
 .h2_blog{
     font: 44px/60px 'heebobold';
+    padding: 105px 0 56px 0;
     color: #21243D;
-    padding: 105px 760px 56px 236px;
 
 }
 .entry_author{
@@ -248,29 +248,25 @@ input:focus{
     height: 295px;
     background-color: #FFFFFF;
 }
-.aabb{
-   display: inline-block;
-}
 .git{
     background-color: #FF6464;
 }
 .featured_works{
-    padding: 0 146px 5px;
-    background-color: #FFFFFF;
-    margin-bottom: 30px;
+    max-width: 858px;
+    margin: auto;
 }
 .feat_works_img{
     height: 180px;
     width: 246px;
-    margin-right: 17px;
+    margin-right: 18px;
+    padding-top: 5px;
 }
 .border{
     border-bottom: 1px #E0E0E0 solid ;
+    margin-top: 31px;
 }
 .featured_works_style{
     font:22px/60px 'heeboregular';
-    margin-bottom: 22px;
-    padding-top: 15px;
 }
 .feat_works_spans{
     background-color: #142850;
@@ -291,18 +287,14 @@ input:focus{
 }
 .feat_works_p_marg_top{
     font: 16px/23px 'heeboregular';
-    margin: 5px 0 30px 0 ;
-    padding-top: 18px;
-}
-.feat_works_sect_pos{
-    padding-top: 10px;
-    font: 16px/23px 'heeboregular';
-    margin-bottom: 1px;
+    padding-top: 7px;
+    width: 594px;
 }
 .feat_works_h3{
     font: 30px/44px 'heebomedium';
     color: #21243D;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
+    width: 1152px;
 }
 .vl{
     border-left: 2px solid black;
@@ -320,10 +312,6 @@ input:focus{
 }
 .blog_col{
     color: #FF6464;
-}
-.blog_containers{
-    width: 682px;
-    margin: 32px 235px;
 }
 .blog_h3{
     font: 30px/44px 'heebomedium';
@@ -351,7 +339,16 @@ input:focus{
     font: 20px/29px 'heeboregular';
     color: #8695A4;
 }
-
+.blog_central_container{
+    max-width: 1152px;
+    margin: auto;
+}
+.feat_works_info_div{
+    max-width: 858px;
+}
+.article_padd{
+    padding-bottom: 30px;
+}
 
 
 
