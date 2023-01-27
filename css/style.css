@@ -166,7 +166,6 @@ h1{
     font-style: italic;
     text-align: left;
 }
-
 option{
     background-color: gray;
 }
@@ -349,7 +348,11 @@ input:focus{
 .article_padd{
     padding-bottom: 30px;
 }
-
+.blog_containers{
+    width: 681px;
+    margin: auto;
+    padding-top: 30px;
+}
 
 
 
