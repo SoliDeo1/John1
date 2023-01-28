@@ -266,6 +266,7 @@ input:focus{
 }
 .featured_works_style{
     font:22px/60px 'heeboregular';
+    color: #21243D;
 }
 .feat_works_spans{
     background-color: #142850;
@@ -293,7 +294,7 @@ input:focus{
     font: 30px/44px 'heebomedium';
     color: #21243D;
     margin-bottom: 10px;
-    width: 1152px;
+
 }
 .vl{
     border-left: 2px solid black;
@@ -349,7 +350,7 @@ input:focus{
     padding-bottom: 30px;
 }
 .blog_containers{
-    width: 681px;
+    max-width: 681px;
     margin: auto;
     padding-top: 30px;
 }
